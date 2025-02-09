@@ -46,6 +46,19 @@
             top: -20px;
             border-radius: 20px 20px 0 0;
             box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding-bottom: 5px; /* Adjusts text to be near the bottom */
+        }
+
+        .icing-text {
+            font-size: 1.2rem;
+            color: white;
+            font-weight: bold;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+            position: relative;
+            bottom: 5px; /* Moves text closer to the line between icing and cake */
         }
 
         .candles {
@@ -115,7 +128,11 @@
     <div class="cake">
         <!-- Insert JPG Image Here -->
         <img src="20240815_210511.jpg" alt="Uploaded Image">
-        <div class="icing"></div>
+        <div class="icing">
+            <div class="icing-text">Suspect
+                
+            </div>
+        </div>
         <div class="candles">
             <div class="candle"><div class="flame"></div></div>
             <div class="candle"><div class="flame"></div></div>
