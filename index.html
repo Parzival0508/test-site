@@ -119,6 +119,29 @@
             left: 0;
             border-radius: 10px; /* Matches the cake's rounded corners */
         }
+
+        /* Button Styling */
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .birthday-button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #d63384;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .birthday-button:hover {
+            background-color: #b82c6e;
+        }
     </style>
 </head>
 <body>
@@ -129,9 +152,7 @@
         <!-- Insert JPG Image Here -->
         <img src="20240815_210511.jpg" alt="Uploaded Image">
         <div class="icing">
-            <div class="icing-text">Suspect
-                
-            </div>
+            <div class="icing-text">Suspect</div>
         </div>
         <div class="candles">
             <div class="candle"><div class="flame"></div></div>
@@ -141,6 +162,13 @@
     </div>
 
     <div class="message">Maligayang Pagbibinata and Wishing you na sana mag ambag ka naman! 🎂</div>
+
+    <!-- Button Link -->
+    <div class="button-container">
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=S1zV_S4FL_-NBGAR" target="_blank" class="birthday-button">
+            🎁 Click for a Surprise!
+        </a>
+    </div>
 
     <script>
         document.querySelectorAll(".flame").forEach(flame => {
